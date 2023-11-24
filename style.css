@@ -1,0 +1,52 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red;
+    padding: 20px;
+}
+
+header nav{
+    display: flex;
+    background-color: aqua;
+}
+
+header nav ul{
+    display: flex;
+    gap: 10px;
+    
+}
+
+ul li{
+    list-style-type: none; 
+}
+
+main{
+    background-color: aquamarine;
+    width: 100%;
+    height: 500px;
+}
+
+.contenitore{
+    width: 1500px;
+}
+
+
+.titolo{
+    background-color: blue;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    font-size: 35px;
+}
+
+.testo{
+    background-color: blueviolet;
+    width: 300px;
+    
+}
+
