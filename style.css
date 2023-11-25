@@ -85,7 +85,6 @@ main span{
 .container-business{
     width: 800px;
     padding-top: 100px;
-    background-color: red;
 }
 
 .business{
@@ -93,6 +92,7 @@ main span{
     font-size: 25px;
 }
 
+/*modalità*/
 .pagamento .bot-blu{
     display: flex;
 }
@@ -116,23 +116,43 @@ main span{
 .pag-info{
     border: 1px solid #9f9f9f;
     border-top: 0px;
-    height: 700px;
+    height: 750px;
     padding: 10px;
     font-size: 13px;
 }
 
-.pagamento h3{
+h3{
     font-size: 25px;
 }
 
-.ciaoo{
+#ultimo-pag{
+    padding-top: 100px;
+}
+
+.ultimo-pag{
     width: 100%;
     border: 1px solid #9f9f9f;
+}
+
+.modalità{
     text-align: center;
+    padding: 5px;
 }
 
 .enterprise{
     display: flex;
-    border: 1px solid #9f9f9f;
-    border-top: 0px;
+    border-top: 1px solid #9f9f9f;
+}
+
+#sinistra{
+    width: 60%;
+    padding: 10px;
+    font-size: 13px;
+
+}
+
+#destra{
+    width: 40%;
+    text-align: center;
+    padding-top: 20px;
 }
