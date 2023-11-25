@@ -74,46 +74,65 @@ main span{
     border: none;
 }
 
+.bot-blu:hover{
+    background-color: #5b9aff;
 
-/*container business*/
-.container-business{
-    background-color: red;
-    width: 800px;
-    height: 700px;
 }
 
-.container-business .business{
-    font-size: 20px;
+
+
+/*selezione modalità*/
+.container-business{
+    width: 800px;
+    padding-top: 100px;
+    background-color: red;
 }
 
 .business{
-    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 25px;
 }
 
-.radio{
-    font-size: 13px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.pagamento .bot-blu{
+    display: flex;
 }
 
 #tab-pag{
+    padding-top: 50px;
     display: flex;
 }
 
 .pagamento{
-    border: 1px solid black;
-    background-color: cadetblue;
-    width: 230px;
-    height: 30px;
+    width: 250px;
+    height: 750px;
 }
 
-.offerte{
-    border: 1px solid black;
-    background-color: cadetblue;
-    padding: 20px;
+.pagamento .modalità{
+    border: 1px solid #9f9f9f;
+    padding: 5px;
+    text-align: center;
+}
+
+.pag-info{
+    border: 1px solid #9f9f9f;
+    border-top: 0px;
+    height: 700px;
+    padding: 10px;
     font-size: 13px;
-
 }
 
-.pagamento span{
+.pagamento h3{
+    font-size: 25px;
+}
+
+.ciaoo{
+    width: 100%;
+    border: 1px solid #9f9f9f;
+    text-align: center;
+}
+
+.enterprise{
+    display: flex;
+    border: 1px solid #9f9f9f;
+    border-top: 0px;
 }
