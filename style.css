@@ -94,7 +94,7 @@ main span{
 
 /*modalità*/
 .pagamento .bot-blu{
-    display: flex;
+    width: 100%;
 }
 
 #tab-pag{
@@ -156,11 +156,6 @@ h3{
     padding-top: 20px;
 }
 
-.ciaooo{
-    background-color: aquamarine;
-    height: 100px;
-}
-
 /*Entra in contatto con un parther dropbox*/
 #parther-dropbox{
     width: 800px;
@@ -211,3 +206,138 @@ h3{
     padding-top: 50px;
 }
 
+
+/*più di 500.000 team utilizzano dropbox business*/
+#titolo-500{
+    width: 800px;
+    padding-top: 100px;
+}
+
+#contenitore{
+    display: flex;
+    width: 1500px;
+    padding-top: 70px;
+}
+
+.quadro-colorato{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+/*quadrato sinistra*/
+.verde{
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+
+.rossoscuro{
+    background-color: #61082b;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.azzurro{
+    background-color: #0093ce;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.rosso{
+    background-color: #ff1c1c;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+
+/*quadrato centro*/
+.centro{
+    background-color: #f5f5f5;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+}
+
+.centro h2{
+    font-size: 50px;
+}
+
+.centro .designit {
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+
+/*quadrato destra*/
+.arancione{
+    background-color: #d5001f;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+
+.ciano{
+    background-color: #b4d0e7;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.blu{
+    background-color: #0d2481;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.giallo{
+    background-color: #ffd830;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+/*porta Dropbox Business nella tua azienda*/
+#prova-gratuita{
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 250px;
+    
+}
+
+#prova-gratuita .bot-bianco{
+    width: 250px;
+    border: none;
+}
+
+
+.titolo-gratuita{
+    font-size: 20px;
+    display: flex;
+    width: 70%;
+    padding-top: 80px;
+    color: #61082b;
+}
