@@ -145,14 +145,69 @@ h3{
 }
 
 #sinistra{
-    width: 60%;
+    width: 70%;
     padding: 10px;
     font-size: 13px;
-
 }
 
 #destra{
-    width: 40%;
+    width: 30%;
     text-align: center;
     padding-top: 20px;
 }
+
+.ciaooo{
+    background-color: aquamarine;
+    height: 100px;
+}
+
+/*Entra in contatto con un parther dropbox*/
+#parther-dropbox{
+    width: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.bot-bianco{
+    padding: 10px;
+    background-color: white;
+}
+
+.bot-bianco:hover{
+    background-color: rgb(231, 231, 231);
+
+}
+
+/*Esegui più operazioni con Dropbox Business*/
+.ciao{
+    width: 800px;
+}
+
+.ciao h2{
+    font-size: 30px;
+}
+
+#img-con-informazioni{
+    display: flex;
+}
+
+.tabella-per-immagini{
+    width: 250px;
+}
+
+.info-img{
+    padding: 10px;
+    font-size: 13px;
+}
+
+.tabella-per-immagini h3{
+    font-size: 20px;
+}
+
+#img-con-informazioni2{
+    display: flex;
+    padding-top: 50px;
+}
+
