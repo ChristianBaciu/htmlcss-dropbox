@@ -1,6 +1,6 @@
 *{
-    padding: 0 auto;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -9,37 +9,45 @@ html{
 }
 
 header{
-    background-color: red;
+    background-color: white;
     padding: 20px;
-}
-
-header nav{
+    align-items: center;
     display: flex;
-    background-color: aqua;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 0.5px 0.5px #000000;
+
 }
 
 header ul{
-    background-color: yellow;
     gap: 30px;
     display: flex;
+    align-items: center;
 }
 
+.click:hover{
+    border-bottom: 2px solid black;
+}
 
 ul li{
     list-style-type: none; 
 }
 
 main{
+    padding-top: 50px;
     background-color: #b4d0e7;
     width: 100%;
-    height: 600px;
+    height: 650px;
 }
 
+/*introduzione*/
 .contenitore-iniziale{
+    margin: 0 auto;
     width: 900px;
     height: 500px;
 }
-
 
 .titolo-impo{
     width: 100%;
@@ -76,13 +84,15 @@ main span{
 
 .bot-blu:hover{
     background-color: #5b9aff;
-
 }
 
-
+.contenitore-iniziale svg{
+    font-size: 35px;
+}
 
 /*selezione modalità*/
 .container-business{
+    margin: 0 auto;
     width: 800px;
     padding-top: 100px;
 }
@@ -105,6 +115,7 @@ main span{
 .pagamento{
     width: 250px;
     height: 750px;
+    margin: 0 auto;
 }
 
 .pagamento .modalità{
@@ -158,11 +169,16 @@ h3{
 
 /*Entra in contatto con un parther dropbox*/
 #parther-dropbox{
+    margin: 0 auto;
     width: 800px;
     display: flex;
     flex-direction: row-reverse;
     padding-top: 50px;
     padding-bottom: 150px;
+}
+
+.info h3{
+    font-size: 25px;
 }
 
 .bot-bianco{
@@ -172,16 +188,13 @@ h3{
 
 .bot-bianco:hover{
     background-color: rgb(231, 231, 231);
-
 }
 
 /*Esegui più operazioni con Dropbox Business*/
-.ciao{
+.piu-operazioni{
     width: 800px;
-}
-
-.ciao h2{
-    font-size: 30px;
+    margin: 0 auto;
+    font-size: 25px;
 }
 
 #img-con-informazioni{
@@ -190,6 +203,7 @@ h3{
 
 .tabella-per-immagini{
     width: 250px;
+    margin: 0 auto;
 }
 
 .info-img{
@@ -206,10 +220,10 @@ h3{
     padding-top: 50px;
 }
 
-
 /*più di 500.000 team utilizzano dropbox business*/
 #titolo-500{
-    width: 800px;
+    margin: 0 auto;
+    width: 750px;
     padding-top: 100px;
 }
 
@@ -217,6 +231,7 @@ h3{
     display: flex;
     width: 1500px;
     padding-top: 70px;
+    margin: 0 auto;
 }
 
 .quadro-colorato{
@@ -325,19 +340,89 @@ h3{
     background-color: #b4d0e7;
     width: 100%;
     height: 250px;
-    
 }
+
 
 #prova-gratuita .bot-bianco{
     width: 250px;
     border: none;
 }
 
-
 .titolo-gratuita{
     font-size: 20px;
     display: flex;
-    width: 70%;
+    width: 800px;
     padding-top: 80px;
     color: #61082b;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
 }
+
+.bot-destra{
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+
+.contenitore-domande{
+    height: 500px;
+}
+
+.domande{
+    padding-top: 100px;
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.domande svg{
+    position: absolute;
+    right: 20px;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    height: 400px;
+    padding-top: 50px;
+}
+
+footer ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+#titoli-finali{
+    display: flex;
+    width: 850px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 50px;
+}
+
+#titoli-finali h2{
+    padding-bottom: 20px;
+}
+
+.lingua{
+    border-top: 1px solid #999999;
+    color: #999999;
+    width: 100px;
+    padding-top: 20px;
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
