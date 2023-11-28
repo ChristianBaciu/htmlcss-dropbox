@@ -26,10 +26,6 @@ header ul{
     align-items: center;
 }
 
-.click:hover{
-    border-bottom: 2px solid black;
-}
-
 ul li{
     list-style-type: none; 
 }
@@ -79,10 +75,16 @@ main span{
     color: white;
     background-color: #0061ff;
     border: none;
+    cursor: pointer;
 }
 
 .bot-blu:hover{
     background-color: #5b9aff;
+}
+
+.click:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
 }
 
 .contenitore-iniziale svg{
@@ -100,6 +102,12 @@ main span{
     padding-bottom: 50px;
     font-size: 25px;
 }
+
+#radio{
+    display: flex;
+    gap: 10px;
+}
+
 
 /*modalità*/
 .pagamento .bot-blu{
@@ -183,6 +191,7 @@ h3{
 .bot-bianco{
     padding: 10px;
     background-color: white;
+    cursor: pointer;
 }
 
 .bot-bianco:hover{
@@ -268,6 +277,10 @@ h3{
     text-align: center;
 }
 
+.azzurro img{
+    margin-top: 100px;
+}
+
 .rosso{
     background-color: #ff1c1c;
     height: 250px;
@@ -280,7 +293,6 @@ h3{
 
 #contenitore .quadro-colorato img{
     filter: invert(1);
-
 }
 
 /*quadrato centro*/
@@ -425,5 +437,5 @@ footer ul li a{
     position: absolute;
     left: 15px;
     bottom: 0;
+    cursor: pointer;
 }
-
